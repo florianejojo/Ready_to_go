@@ -17,7 +17,7 @@ function App() {
                     <ButtonPair switch={switch2} setSwitch={setSwitch2} />
                     <ButtonPair switch={switch3} setSwitch={setSwitch3} />
                 </div>
-                <GoOrNo />
+                <GoOrNo switch1={switch1} switch2={switch2} switch3={switch3} />
             </div>
         </div>
     );

@@ -1,5 +1,4 @@
 const ButtonPair = (props) => {
-    console.log(props.switch);
     return (
         <div className="buttonPair">
             <div
@@ -7,7 +6,7 @@ const ButtonPair = (props) => {
                 onClick={() => {
                     props.setSwitch(true);
                 }}
-                className={props.switch === true ? "on" : "off"}
+                className={props.switch === true ? "off" : "on"}
             >
                 ON
             </div>
@@ -16,7 +15,7 @@ const ButtonPair = (props) => {
                 onClick={() => {
                     props.setSwitch(false);
                 }}
-                className={props.switch === true ? "off" : "on"}
+                className={props.switch === true ? "on" : "off"}
             >
                 OFF
             </div>

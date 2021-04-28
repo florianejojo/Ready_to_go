@@ -50,16 +50,22 @@
     align-items: center;
 }
 
-.noWay {
+#noWay,
+#go {
     padding: 20px;
-    background-color: tomato;
+
     border-radius: 10px;
     margin-left: 100px;
 }
 
-.go {
-    display: none;
-    padding: 20px;
+#noWay {
+    background-color: tomato;
+}
+
+#go {
     background-color: green;
-    border-radius: 10px;
+}
+
+.hidden {
+    display: none;
 }
