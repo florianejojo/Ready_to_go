@@ -53,9 +53,10 @@
 #noWay,
 #go {
     padding: 20px;
-
+    width: 120px;
     border-radius: 10px;
     margin-left: 100px;
+    text-align: center;
 }
 
 #noWay {

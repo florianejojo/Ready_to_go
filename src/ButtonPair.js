@@ -4,7 +4,7 @@ const ButtonPair = (props) => {
             <div
                 id="on"
                 onClick={() => {
-                    props.setSwitch(true);
+                    props.setSwitch(!props.switch);
                 }}
                 className={props.switch === true ? "off" : "on"}
             >
@@ -13,7 +13,7 @@ const ButtonPair = (props) => {
             <div
                 id="off"
                 onClick={() => {
-                    props.setSwitch(false);
+                    props.setSwitch(!props.switch);
                 }}
                 className={props.switch === true ? "on" : "off"}
             >
